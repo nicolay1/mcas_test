@@ -1,0 +1,26 @@
+{
+  "name": "mcas_test",
+  "version": "1.0.0",
+  "description": "![nodejs](https://cloud.githubusercontent.com/assets/51578/13712672/efdf2a40-e792-11e5-82ef-492478cbc0dc.png)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolay1/mcas_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolay1/mcas_test/issues"
+  },
+  "homepage": "https://github.com/nicolay1/mcas_test#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
