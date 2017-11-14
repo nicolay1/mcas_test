@@ -7,7 +7,7 @@ var options = {
 
 app.use('/', express.static('app', options));
 
-var server = app.listen(8081, function () {
+var server = app.listen(8000, function () {
   var host = server.address().address;
   var port = server.address().port;
 
