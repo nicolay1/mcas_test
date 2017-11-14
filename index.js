@@ -7,7 +7,7 @@ var options = {
 
 app.use('/', express.static('app', options));
 
-app.get('/', function(){return "test"});
+app.get('/', function(err,res){res.send("builded and launched")});
 
 var server = app.listen(process.env.PORT || 8000, function () {
   var host = server.address().address;
